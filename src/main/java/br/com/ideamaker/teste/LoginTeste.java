@@ -8,9 +8,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+
+
+
 public class LoginTeste {
 
-	Login pagina;
+	public static void main(String[] args) {
+
+		Login pagina;
 
 	@Given("Estando com o Celular quero baixar e abrir o APP")
 	public void estando_com_o_celular_quero_baixar_e_abrir_o_app() throws MalformedURLException {
