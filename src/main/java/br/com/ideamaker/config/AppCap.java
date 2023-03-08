@@ -13,7 +13,7 @@ public class AppCap implements IConfig{
 		// Configuração do android
 		File apk = new File("./Drivers/vidacap-release.apk");
 		ConfigSistemaAndroid android = new ConfigSistemaAndroid(apk.getAbsolutePath(), MobilePlatform.ANDROID,
-				"com.ideamaker.vidacap", "com.whitelabelcap.SplashActivity", "pixel", "9", "UiAutomator2");
+				"com.ideamaker.vidacap.debug", "com.whitelabelcap.SplashActivity", "pixel 2", "9", "UiAutomator2");
 
 		// Configuração do ios
 		File fileIos = new File("./Drivers/qazandoapp.app");
